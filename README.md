@@ -9,7 +9,7 @@ This is why I created this expansion board which can be populated with 16 4x1Mbi
 
 
 ## RAM chips ##
-<img align="right" src="images/soj-dram.png" alt="SOJ DRAM pinout" width="200"/><br/>
+<img align="right" src="images/soj-dram.png" alt="SOJ DRAM pinout" width="200"/>
 The DRAM chips that are needed for this module are Fast Page Mode (FPM) chips of 1M x 4 bits each (16pcs). The RAM package is SOJ-20.  
 It's the kind that has the size of a 26 pin SOJ but are missing three pins in the middle on each side making them 20-pin.
 
