@@ -35,7 +35,14 @@ It also states that a complete pass will take five minutes but it takes much, mu
 No matter what, I guess it's still very useful for testing the condition of the RAM chips.
 
 I also like to test the memory using the excellent Amiga Test Kit utility by Keir Fraser: https://github.com/keirf/Amiga-Stuff  
-This is done in normal memory mode with DIP switch 5 set to ON (up position).
+This is done in normal memory mode with DIP switch 5 set to ON (up position). 
+
+If you get errors during testing, refer to the RAM location layout below. 
+
+<p align="center">
+  <img src="images\ram-locations.jpg" alt="RAM area locations on PCB" width="1000"/>
+</p>
+
 
 Thanks too my friend Jani over at https://worldofjani.com/ for good discussions and testing. Here are his thoughts about this expansion: https://blog.worldofjani.com/?p=8064
 
@@ -45,8 +52,9 @@ Installation is straightforward:
 * Remove any old DIP chips
 * Align the pins with the sockets
 * Insert module
+* Install all three jumpers J1, J2, J3 for 8 MB
 
-There's an installation guide in the docs folder.
+There's an illustrated installation guide in the docs folder.
 <p align="center">
   <img src="images\moduleinstalled.jpg" alt="Board installed in SupraDrive" width="800"/>
 </p>
